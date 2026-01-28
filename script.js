@@ -31,7 +31,7 @@ function applyMode(mode) {
 		toggleModeBtn.style.color = "rgb(245, 245, 245)";
 		toggleModeBtn.innerHTML = '<i class="bi bi-sun-fill"></i>';
 
-		portfolioLink.style.color = "rgb(245, 245, 245)";
+		// portfolioLink.style.color = "rgb(245, 245, 245)";
 
 		responsiveWarning.style.backgroundColor = "rgb(2, 4, 8)";
 	} else {
@@ -39,7 +39,7 @@ function applyMode(mode) {
 		toggleModeBtn.style.color = "rgb(2, 4, 8)";
 		toggleModeBtn.innerHTML = '<i class="bi bi-moon-stars-fill"></i>';
 
-		portfolioLink.style.color = "rgb(2, 4, 8)";
+		// portfolioLink.style.color = "rgb(2, 4, 8)";
 
 		responsiveWarning.style.backgroundColor = "rgb(245, 245, 245)";
 	}
